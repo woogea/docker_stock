@@ -1,6 +1,6 @@
 FROM centos:7
 MAINTAINER woogy
-EXPOSE 8888:3080
+
 USER root
 RUN yum -y install git zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel
 RUN git clone https://github.com/yyuu/pyenv.git ~/.pyenv 
